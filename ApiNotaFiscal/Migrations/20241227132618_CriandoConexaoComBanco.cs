@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ApiNotaFiscal.Migrations
 {
     /// <inheritdoc />
-    public partial class CriandoTabelaDeNotas : Migration
+    public partial class CriandoConexaoComBanco : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,7 @@ namespace ApiNotaFiscal.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Tipo = table.Column<int>(type: "int", nullable: false),
+                    Tipo = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     NumeroNota = table.Column<int>(type: "int", nullable: false),
                     ChaveNota = table.Column<string>(type: "nvarchar(44)", maxLength: 44, nullable: false),
                     CnpjEmitente = table.Column<string>(type: "nvarchar(18)", maxLength: 18, nullable: false),

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiNotaFiscal.Migrations
 {
     [DbContext(typeof(NotaFiscalContext))]
-    [Migration("20241227031328_AtualizandoTipoDaNota")]
-    partial class AtualizandoTipoDaNota
+    [Migration("20241227132618_CriandoConexaoComBanco")]
+    partial class CriandoConexaoComBanco
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

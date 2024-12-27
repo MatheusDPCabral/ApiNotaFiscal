@@ -11,7 +11,7 @@ public class NotaFiscalService
         _context = context;
     }
 
-    public async Task ProcessarXmlsAsync(string caminhoPasta)
+    public async Task ProcessarXmls(string caminhoPasta)
     {
         if (!Directory.Exists(caminhoPasta))
         {

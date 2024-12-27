@@ -1,34 +1,58 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
-    "RelativePath": "notas",
+    "ContainingType": "ApiNotaFiscal.Controllers.NotaFiscalController",
+    "Method": "GetNotas",
+    "RelativePath": "NotaFiscal",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiNotaFiscal.Models.NotaFiscal, ApiNotaFiscal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
-    "RelativePath": "processar-xmls",
-    "HttpMethod": "POST",
-    "IsController": false,
+    "ContainingType": "ApiNotaFiscal.Controllers.NotaFiscalController",
+    "Method": "DeletarTodasNotas",
+    "RelativePath": "NotaFiscal",
+    "HttpMethod": "DELETE",
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNotaFiscal.Controllers.NotaFiscalController",
+    "Method": "DeletaFilme",
+    "RelativePath": "NotaFiscal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNotaFiscal.Controllers.NotaFiscalController",
+    "Method": "ProcessarXmls",
+    "RelativePath": "NotaFiscal/processar-xmls",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
