@@ -1,6 +1,5 @@
 using System.Text.Json.Serialization;
 using ApiNotaFiscal.Data;
-using ApiNotaFiscal.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +18,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Adicionar suporte para serializar enums como strings
+// Adicionar suporte para transformar enums como strings
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {

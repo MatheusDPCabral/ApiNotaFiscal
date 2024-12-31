@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\Downloads\\ApiNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj": {}
+    "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\Downloads\\ApiNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj": {
+    "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\Downloads\\ApiNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
+        "projectUniqueName": "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
         "projectName": "ApiNotaFiscal",
-        "projectPath": "C:\\Users\\mathe\\Downloads\\ApiNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\Downloads\\ApiNotaFiscal\\ApiNotaFiscal\\obj\\",
+        "projectPath": "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

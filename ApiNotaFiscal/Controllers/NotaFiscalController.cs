@@ -24,8 +24,8 @@ public class NotaFiscalController : Controller
     {
         try
         {
-            string caminhoPasta = @"C:\Users\mathe\Downloads\XMLs";
-            await _service.ProcessarXmls(caminhoPasta); // Aguarda o processamento
+            string caminhoPasta = @"C:\Users\DEV\Downloads\XMLs"; // Alterar o caminho para o do diretorio na maquina atual.
+            await _service.ProcessarXmls(caminhoPasta); // Aguarda o processamento.
             return Ok("Arquivos XML processados e notas fiscais salvas com sucesso.");
         }
         catch (Exception ex)
