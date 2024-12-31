@@ -138,13 +138,12 @@
       },
       "TipoNota": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "NFe",
+          "CTe",
+          "NFCe",
+          "CFe"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       }
     }
   }

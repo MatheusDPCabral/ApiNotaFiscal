@@ -533,3 +533,4 @@ C:\Users\DEV\Downloads\TempNotaFiscal\ApiNotaFiscal\obj\Debug\net8.0\refint\ApiN
 C:\Users\DEV\Downloads\TempNotaFiscal\ApiNotaFiscal\obj\Debug\net8.0\ApiNotaFiscal.pdb
 C:\Users\DEV\Downloads\TempNotaFiscal\ApiNotaFiscal\obj\Debug\net8.0\ApiNotaFiscal.genruntimeconfig.cache
 C:\Users\DEV\Downloads\TempNotaFiscal\ApiNotaFiscal\obj\Debug\net8.0\ref\ApiNotaFiscal.dll
+C:\Users\mathe\Downloads\ApiNotaFiscal\ApiNotaFiscal\obj\Debug\net8.0\ApiNotaFiscal.sourcelink.json

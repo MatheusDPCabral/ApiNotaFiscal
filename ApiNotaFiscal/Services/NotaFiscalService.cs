@@ -90,10 +90,10 @@ public class NotaFiscalService
         }
 
         // Salvar as notas fiscais no banco
-        if (listaNotas.Any())
+        /*if (listaNotas.Any())
         {
             _context.NotasFiscais.AddRange(listaNotas);
             await _context.SaveChangesAsync();
-        }
+        }*/
     }
 }
