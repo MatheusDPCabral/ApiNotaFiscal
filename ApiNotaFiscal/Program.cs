@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<NotaFiscalContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// libera politica de cors para todos
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
@@ -18,7 +19,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Adicionar suporte para transformar enums como strings
+// Lib que converte enum como strings
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
