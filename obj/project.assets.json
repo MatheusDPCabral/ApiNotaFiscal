@@ -5390,11 +5390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
+      "projectUniqueName": "C:\\Users\\DEV\\Desktop\\projetoNotaFiscal\\back\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
       "projectName": "ApiNotaFiscal",
-      "projectPath": "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
+      "projectPath": "C:\\Users\\DEV\\Desktop\\projetoNotaFiscal\\back\\ApiNotaFiscal\\ApiNotaFiscal.csproj",
       "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DEV\\Downloads\\TempNotaFiscal\\ApiNotaFiscal\\obj\\",
+      "outputPath": "C:\\Users\\DEV\\Desktop\\projetoNotaFiscal\\back\\ApiNotaFiscal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
